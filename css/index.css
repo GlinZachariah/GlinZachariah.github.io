@@ -1,0 +1,38 @@
+body{
+	font-family: Helvitica;
+	background: rgba(46,151,250,1);
+background: -moz-linear-gradient(left, rgba(46,151,250,1) 0%, rgba(17,126,246,1) 73%, rgba(6,117,244,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(46,151,250,1)), color-stop(73%, rgba(17,126,246,1)), color-stop(100%, rgba(6,117,244,1)));
+background: -webkit-linear-gradient(left, rgba(46,151,250,1) 0%, rgba(17,126,246,1) 73%, rgba(6,117,244,1) 100%);
+background: -o-linear-gradient(left, rgba(46,151,250,1) 0%, rgba(17,126,246,1) 73%, rgba(6,117,244,1) 100%);
+background: -ms-linear-gradient(left, rgba(46,151,250,1) 0%, rgba(17,126,246,1) 73%, rgba(6,117,244,1) 100%);
+background: linear-gradient(to right, rgba(46,151,250,1) 0%, rgba(17,126,246,1) 73%, rgba(6,117,244,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e97fa', endColorstr='#0675f4', GradientType=1 );
+}
+
+.container-fluid{
+	width: 99%;
+	height: auto;
+	border-radius: 75px 75px 75px 75px;
+-moz-border-radius: 75px 75px 75px 75px;
+-webkit-border-radius: 75px 75px 75px 75px;
+border: 2px;
+background-color:#ffffff;
+color:black;
+min-height: 15px;
+height: 30px;
+padding: 5px;
+margin-right: 5px;
+}
+
+.container{
+
+}
+
+.navbar{
+	
+}
+
+.sticky-nav{
+	position: fixed;
+}
