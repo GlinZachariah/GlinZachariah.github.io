@@ -1,4 +1,4 @@
-body{
+.bg{
 	font-family: Helvitica;
 	background: rgba(46,151,250,1);
 background: -moz-linear-gradient(left, rgba(46,151,250,1) 0%, rgba(17,126,246,1) 73%, rgba(6,117,244,1) 100%);
@@ -7,32 +7,76 @@ background: -webkit-linear-gradient(left, rgba(46,151,250,1) 0%, rgba(17,126,246
 background: -o-linear-gradient(left, rgba(46,151,250,1) 0%, rgba(17,126,246,1) 73%, rgba(6,117,244,1) 100%);
 background: -ms-linear-gradient(left, rgba(46,151,250,1) 0%, rgba(17,126,246,1) 73%, rgba(6,117,244,1) 100%);
 background: linear-gradient(to right, rgba(46,151,250,1) 0%, rgba(17,126,246,1) 73%, rgba(6,117,244,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e97fa', endColorstr='#0675f4', GradientType=1 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e97fa', endColorstr='#0675f4', GradientType=1 ); 
 }
 
-.container-fluid{
-	width: 99%;
-	height: auto;
-	border-radius: 75px 75px 75px 75px;
+.container{
+border-radius: 75px 75px 75px 75px;
 -moz-border-radius: 75px 75px 75px 75px;
 -webkit-border-radius: 75px 75px 75px 75px;
 border: 2px;
 background-color:#ffffff;
 color:black;
-min-height: 15px;
-height: 30px;
-padding: 5px;
-margin-right: 5px;
-}
-
-.container{
-
-}
-
-.navbar{
 	
 }
 
-.sticky-nav{
+.content-left-top{
+	height: 10vh ;
+	width: 20%;
+}
+.content-left-bottom{
+	height: 10vh ;
+	width: 20%;
+}
+.navbar{
+/* 	margin-top: 30px; 
+	position: fixed;*/
+	width: 25%;
+	text-align: left;
+ /*	margin-left: 45px;*/
+/*	text-align: center;
+	padding-right: 8px; */
+	margin-right: 25px;
+}
+
+ul{
+	list-style: none;
+	/* padding-left: 16	px; */
+}
+
+li a{
+	text-decoration:#ffffff ;
+	text-transform: uppercase;
+	
+}
+
+li{
+    margin-top: 100px;
+	height: 100%;
+	margin-bottom: 100px;
+	/* text-align: center; */
+	font-family:Helvetica, Arial, sans-serif;
+	/* margin-right: 15px; */
+}
+.content-left{
+	width: 5%;
+	float: left;
 	position: fixed;
+}
+.content-right{
+	width: 88%;
+	float: right;
+}
+
+.section-a{
+	background-color:cornflowerblue; height:100vh;width:90%;
+}
+.section-b{
+	background-color:coral; height:100vh;;width:90%;
+}
+.section-c{
+	background-color:crimson; height:100vh;width:90%;
+}
+.section-d{
+	background-color:cyan; height:100vh;width:90%;
 }
