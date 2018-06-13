@@ -1,33 +1,53 @@
 <!DOCTYPE html>
-<html meta-data="glinzac" charset="utf-8" lang="en">
-
-<head>
-	<title>Glinzac</title>
-	<link rel="stylesheet" href="css/index.css">
-	<script src="js/index.js"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
-	 crossorigin="anonymous"></script>
-</head>
-
-<body class="bg">
-	<div class="content-left">
-		<div class="content-left-top"></div>
-		<div class="container navbar">
-			<ul>
-				<li><a href="#about"><i class="fas fa-info-circle"></i></a></li>
-				<li><a href="#skill"><i class="fas fa-paint-brush"></i></a></li>
-				<li><a href="#experience"><i class="fas fa-briefcase"></i></a></li>
-				<li><a href="#contact"><i class="fas fa-phone"></i></a></li>
-			</ul>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Glin Zachariah</title>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet"  href="css/main.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<script type="text/javascript">
+					function myFunction(x) {
+						x.classList.toggle("change");
+						document.getElementById('menu').classList.toggle("nav-collapse");
+					}
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="card">
+				<div class="card-header">
+					<div class="menu-container" onclick="myFunction(this)">
+					  <div class="menu-bar1"></div>
+					  <div class="menu-bar2"></div>
+					  <div class="menu-bar3"></div>
+					</div>
+					<img class="logo" src="images/logo.jpeg" alt="logo">
+							<ul class="nav" id="menu">
+								<li class="nav-item nav-link">
+									<a class="nav-link" href="#about">About</a>
+								</li>
+								<li class="nav-item nav-link">
+									<a class="nav-link" href="#skills">Skills</a>
+								</li>
+								<li class="nav-item   nav-link">
+									<a class="nav-link" href="#work">Work</a>
+									
+								</li>
+								<li class="nav-item  nav-link">
+									<a class="nav-link" href="#contact">Contact</a>
+								</li>
+							</ul>
+				</div>
+				
+			</div>
 		</div>
-		<div class="content-left-bottom"></div>
-	</div>
-	<div class="content-right">
-			<div id="about" class="section-a" ></div>
-			<div id="skill" class="section-b" ></div>
-			<div id="experience" class="section-c" ></div>
-			<div id="contact" class="section-d" ></div>
-	</div>
-</body>
-
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	</body>
 </html>
