@@ -59,10 +59,9 @@ li a{
 
 }
 
-
-@media screen and (min-width: 551px) and (max-width: 850px){
+/*Common for Medium and large*/
+@media screen and (min-width: 551px){
 	.logo{
-	width: 20%;
 	height: 20%;
 	margin:0;
 	}
@@ -71,18 +70,20 @@ li a{
 		display: flex;
 	}
 	.nav{
-		float: right;
+		margin:auto 0 auto auto;
 	}
 }
 
+/*Medium*/
+@media screen and (min-width: 551px) and (max-width: 850px){
+	.logo{
+	width: 20%;
+	}
+
+}
 @media screen and (min-width: 851px){
 	.logo{
 	width: 10%;
-	height: 20%;
-	margin:0;
 	}
-
-	.card-header{
-		display: flex;
-	}
+	
 }
