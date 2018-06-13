@@ -1,3 +1,18 @@
 .logo{
 	display: block;
 }
+body{
+	font-family: 'Raleway',sans-serif;
+}
+
+.about_title, .about_subtitle{
+	font-weight: lighter;
+	padding-top: 12px;
+}
+
+.social_media span{
+	font-size: 1.25em;
+}
+span a{
+	color:grey;
+}
