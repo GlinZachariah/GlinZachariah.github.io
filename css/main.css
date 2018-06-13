@@ -16,3 +16,17 @@ body{
 span a{
 	color:grey;
 }
+
+.jumbotron{
+	margin-bottom: 0px;
+}
+
+.skills_section{
+	padding-top: 32px;
+	background-color: #8CB2DD;
+	padding-bottom: 32px;
+}
+
+.myskill{
+	padding-top: 12px;
+}
