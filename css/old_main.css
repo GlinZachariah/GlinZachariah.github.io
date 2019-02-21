@@ -1,0 +1,83 @@
+.logo{
+	display: block;
+}
+body{
+	font-family: 'Raleway',sans-serif;
+}
+
+.card-header{
+	background-color: #4E7AC7;
+	color:white;
+}
+
+.card-header a{
+	color: white;
+}
+#contact{
+	background-color: #4E7AC7;
+	color:white;
+	padding: 32px 0;
+}
+.about{
+	background-color: white;
+	color: #4E7AC7;
+}
+
+span a{
+	color:#4E7AC7;
+}
+.progress-bar{
+	background-color:#7FB2F0;
+}
+.skills_section{
+	padding-top: 32px;
+	background-color: #4E7AC7;
+	padding-bottom: 32px;
+	color:white;
+}
+
+#works{
+	padding: 32px 0;
+	color:#4E7AC7;
+
+}
+.figure-caption{
+	text-align: center;
+}
+
+figure{
+	display: block;
+	margin: 0 auto;
+}
+
+.about_title, .about_subtitle{
+	font-weight: lighter;
+	padding-top: 12px;
+}
+
+.social_media span{
+	font-size: 1.25em;
+}
+
+
+.jumbotron{
+	margin-bottom: 0px;
+}
+
+
+
+.myskill{
+	padding-top: 12px;
+}
+
+.contact-form{
+	background-color: white;
+	color:black;
+	display: block;
+}
+
+.contact_detail{
+	text-align: center;
+	padding: 12px;
+}
+
