@@ -10,9 +10,37 @@
 		<link rel="stylesheet" href="css/milligram.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/responsive.css">
+		<script type="text/javascript">
+					function myFunction(x) {
+						x.classList.toggle("change");
+						document.getElementById('menu').classList.toggle("nav-collapse");
+					}
+		</script>
 	</head>
 	<body>
-		
+		<div class="box-layout" id="mainBackground">
+			<!--Navigation bar  -->
+			<div class="container">
+				<div class="row">
+					<div class="menu-container" onclick="myFunction(this)">
+					  <div class="menu-bar1"></div>
+					  <div class="menu-bar2"></div>
+					  <div class="menu-bar3"></div>
+					</div>
+					<div class="row menu" id="menu">
+				    <div class="column"><a href="#about">About</a></div>
+				    <div class="column"><a href="#skills">Skills</a></div>
+				    <div class="column"><a href="#works">Works</a></div>
+				    <div class="column"><a href="#contact">Contact</a></div>
+				  </div>
+				</div>
+			</div>
+
+			<!--Main card  -->
+			<div class="container" id="main_card">
+				<img src="images/logo.jpg" alt="GLIN AMBIGRAM" id="logo">
+			</div>
+		</div>
 
 
 		<!-- Optional JavaScript -->
