@@ -32,6 +32,8 @@
 
   .menu{
   	display: block;
+    border-radius: 10px;
+    height: 150px;
   	text-align: center;
   	order:-1;
   	position: absolute;
@@ -40,8 +42,14 @@
   	margin:0 auto;
   	transform: translateY(-280px);
   	transition: 1s;
-  	background-color: rgba(48, 48,48 , 0.7);
-  	color:white;
+  	/* background-color: rgba(48, 48,48 , 0.7); */
+  	color:black;
+    background: white;
+    z-index: 10;
+  }
+  #logo{
+    height: 100px;
+
   }
 
 }
