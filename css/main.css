@@ -1,83 +1,87 @@
-.logo{
-	display: block;
-}
-body{
-	font-family: 'Raleway',sans-serif;
+*{
+    box-sizing: border-box;
 }
 
-.card-header{
-	background-color: #4E7AC7;
-	color:white;
-}
-
-.card-header a{
-	color: white;
-}
-#contact{
-	background-color: #4E7AC7;
-	color:white;
-	padding: 32px 0;
-}
-.about{
-	background-color: white;
-	color: #4E7AC7;
-}
-
-span a{
-	color:#4E7AC7;
-}
-.progress-bar{
-	background-color:#7FB2F0;
-}
-.skills_section{
-	padding-top: 32px;
-	background-color: #4E7AC7;
-	padding-bottom: 32px;
-	color:white;
-}
-
-#works{
-	padding: 32px 0;
-	color:#4E7AC7;
-
-}
-.figure-caption{
-	text-align: center;
-}
-
-figure{
-	display: block;
-	margin: 0 auto;
-}
-
-.about_title, .about_subtitle{
-	font-weight: lighter;
-	padding-top: 12px;
-}
-
-.social_media span{
-	font-size: 1.25em;
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 231, 231);
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 
-.jumbotron{
-	margin-bottom: 0px;
+/* page styling */
+.main-layout{
+    display: block;
+    position: absolute;
+    top:5%;
+    left:5%;
+    height: 90%;
+    width:90%;
+    /* background-color: rgb(151, 151, 151); */
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: -5px 4px 2px -5px black;
+    
+}
+
+.inner-layout{
+    position: inherit;
+    top:20%;
+    width:100%;
+    height: 60%;
+}
+
+.inner-left{
+    color:white;
+    position: inherit;
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+
+.inner-right{
+    color: white;
+    position: inherit;
+    width: 30%;
+    height: 100%;
+    left: 50%;
+}
+
+.inner-left-content{
+    position: inherit;
+    top: 30%;
+    width: 70%;
+    left:15%;
 }
 
 
+.btn{
+    border-radius: 35pt;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    width:20%;
+    min-width: 250px;
+    font-weight: 100;
+    padding: 15px;
+    /* background-color: #979797; */
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #00042825); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.myskill{
-	padding-top: 12px;
+    text-shadow: 1px 1px 5px #000000;
+    border: solid #FFFFFF 4px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    }
+
+#autoType{
+    font-size: 37px;
 }
-
-.contact-form{
-	background-color: white;
-	color:black;
-	display: block;
-}
-
-.contact_detail{
-	text-align: center;
-	padding: 12px;
-}
-
