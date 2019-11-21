@@ -1,63 +1,268 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/milligram.min.css">
+
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css">
+    <title>Glin Zachariah's Profile</title>
+
     <script src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js" />
-    <script>
-        var typed = new TypeIt('#typed', {
-        strings: ["ML Enthuciast","Web Developer"],
-        speed: 50,
-        breakLines: false,
-        waitUntilVisible: true,
-        loop:true
-        }).go();
-
-        
-    </script>
 </head>
-<body onresize="checkScreen()">
-    <div class="main-layout">
-        <div class="inner-layout">
-            <div class="inner-left">
-                <div class="inner-left-content">
-                    <span style="font-size: 25px;">Hi, I'm</span><br>
-                    <span style="font-size: 38px; font-weight: 500;">K Glin Zachariah</span><br>
-                    <span id="autoType"><b ><span id="typed"></span><br></b></span><br>
-                    <a href=""><div class="btn" style="font-size: 20px; font-weight: 400;">Know More About Me</div></a>
-                    
-                    
-                </div>
-                
-            </div>
-            
-            <div class="inner-right"></div>
-        </div>
-    </div>
-    <script>
-        var typed = new TypeIt('#typed', {
-        strings: ["ML Enthusiast","Web Developer"],
-        speed: 55,
-        breakLines: false,
-        waitUntilVisible: true,
-        loop:true
-        }).go();
-
-        function checkScreen(){
-            if (screen.width < 598){
-                typed.freeze();
-            }else{
-                if(typed.is('frozen')){
-                    typed.unfreeze();
-                }
-            }
-        }
-    </script>
+<body>
     
+    <div class="container-fluid">
+
+            <div class="row section">
+              <div class="column pl-40  B700 A000">
+                  <h1 class="title">Hi, I'm <br> <strong>K Glin Zachariah</strong> </h1>
+                  <h2>Programmer Analyst Trainee</h2>
+                  <h2>Cognizant</h2>
+              </div>
+              <div class="column column-25 B000 nav-bar">
+                    <div class="column pl-40 pt-40">
+                            <a class="button B700 A000 nav-btn" href="#">Home</a>
+                      </div>
+                      <div class="column pl-40 pt-40">
+                            <a class="button button-outline theme-border A700 nav-btn " href="#aboutme">About Me</a>
+                      </div>
+                      <div class="column pl-40 pt-40">
+                            <a class="button button-outline theme-border A700 nav-btn " href="#skills">Skills</a>
+                      </div>
+                      <div class="column pl-40 pt-40">
+                            <a class="button button-outline theme-border A700 nav-btn " href="#projects">Projects</a>
+                      </div>
+                      <div class="column pl-40 pt-40">
+                            <a class="button button-outline theme-border A700 nav-btn " href="#experience">Exprerience</a>
+                      </div>
+                      <div class="column pl-40 pt-40">
+                            <a class="button button-outline theme-border A700 nav-btn " href="#resume">Resume</a>
+                      </div>
+              </div>
+            </div>
+          
+            <div class="row section" id="aboutme">
+                    
+                    <div class="column pl-40 B700 A000 contents">
+                          <h3 class="">
+                             <span class="blockquote">I</span>'m a Programmer who loves to learn and explore different new technologies, curious to try out new things on my own ( although not everything goes right always ). 
+                          
+                              I believe that learning anything is possible, it's just the matter of dedication, passion and curiousity towards what we seek to learn, they become the actual parameters of the outcoume we expect. 
+                          </h3>
+                          
+                         
+                    </div>
+                    <div class="column column-20  ">
+                        
+                    </div>
+            </div>
+            <div class="row section" id="skills">
+                    
+                    <div class="row pt-40">
+                        
+                        <div class="column wrap pl-40 pt-40 pr-40">
+                                <!-- Begin -->
+                                <div class="row">
+                            <div class="column">
+                                    <a class="icon-box" href="https://seeklogo.com/vector-logo/158094/java"><img class="icon" src="images/java.png" alt="java" ></a>
+                                        
+                                </div>
+                            <div class="column">
+                                        <a class="icon-box" href="https://icons8.com/icon/13441/python"><img class="icon" src="images/python.png" alt="python" ></a>
+                            </div>
+                            <div class="column">
+                                        <a class="icon-box" href="https://icons8.com/icon/40670/c-programming"><img class="icon" src="images/c.png" alt="c-programming" ></a>
+                            </div>
+
+                            <div class="column">
+                                <a class="icon-box" href="https://angular.io/assets/images/logos/angular/angular.png"><img class="icon" src="images/angular.png" alt="Angular"></a>
+                            </div>
+                            
+                        
+                        </div>
+                        <div class="row">
+                                <div class="column">
+                                        <a class="icon-box" href="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg"><img class="icon" src="images/bootstrap-solid.svg" alt="bootstrap" ></a>
+                                </div>
+                            
+                                <div class="column">
+                                        <a class="icon-box" href="https://icons8.com/icon/108784/javascript"><img class="icon" src="images/javascript.png" alt="javascript" ></a>
+                                </div>
+                                <div class="column">
+                                    <a class="icon-box" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/256px-CSS3_logo_and_wordmark.svg.png"><img class="icon" src="images/CSS3.png" alt="CSS3" ></a>
+                                </div>
+                                <div class="column">
+                                        <a class="icon-box" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"><img class="icon" src="images/HTML5.png" alt="HTML5" ></a>
+                                </div>
+                                
+                                
+
+                        </div>
+                
+                          <div class="row">
+                                <div class="column">
+                                        <a class="icon-box" href="https://spring.io/img/spring-by-pivotal-9066b55828deb3c10e27e609af322c40.png"><img class="icon" src="images/spring.png" alt="spring" ></a>
+                                </div>
+                                <div class="column">
+                                                <a class="icon-box" href="https://www.djangoproject.com/m/img/logos/django-logo-negative.png"><img class="icon" src="images/django.png" alt="django"></a>
+                                </div>
+                                
+                                <div class="column">
+                                        <a class="icon-box" href="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-standard.png"><img class="icon" src="images/firebase.png" alt="firebase.png" ></a>
+                                </div>
+                                <div class="column">
+                                    <a class="icon-box" href="https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Dialogflow_logo.svg/694px-Dialogflow_logo.svg.png"><img class="icon" src="images/dialogflow.png" alt="dialogflow" ></a>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                                        <div class="column">
+                                                        <a class="icon-box" href="https://www.php.net/images/logos/new-php-logo.png"><img class="icon" src="images/php.png" alt="php" ></a>
+                                                </div>
+                                                <div class="column">
+                                                        <a class="icon-box" href="https://s.w.org/style/images/about/WordPress-logotype-standard.png"><img class="icon" src="images/wordpress.png" alt="wordpress" ></a>
+                                                </div>
+                        </div>
+                                <!-- End -->
+                        </div>
+                        <div class="column column-20"></div>
+                    </div>
+                         
+            </div>
+            <div class="row section" id="projects">
+                    <div class="column pl-40 pr-40 B700 A000 contents">
+                          <!-- Begin -->
+                                <div class="project-item">
+                                        <span class="marker"></span>
+                                        <div class="card">
+                                                <div class="card-title">MediAssist</div>
+                                                <div class="card-subtitle">Firebase, Angular</div>
+                                                <div class="card-content">
+                                                                This is a practice project completed after the Full Stack training. The expected outcome of the project is to develop a single page application that allows patients to record appointments, prescriptions, medical reports, expenses, etc.
+                                                                This was built using Angular Material and Firebase (Realtime Database & Firebase Storage). A temporary version of the app was built and hosted on Firebase hosting service. Many more features are yet to be included.
+                                                </div>
+                                                <div class="card-footer"></div>
+                                        </div>
+                                </div>
+
+                                <div class="">
+                                                <span class="marker"></span>
+                                                <div class="card">
+                                                        <div class="card-title">Mentor-On Demand</div>
+                                                        <div class="card-subtitle">Angular, Spring Boot, SQL</div>
+                                                        <div class="card-content">This was the project I completed as a part of the training for the Java Full Stack Developer in my career. The project was to build an online mentor system, in which students can search mentors based on a specific technology, for a given time of day. Based on the availability of the mentors they can request the mentors.
+                                                                        I learned about Angular, Spring, Spring Boot, Java, Microservices, JWT, MySQL, JPA, Hibernate, features of Java 8 with this project.</div>
+                                                        <div class="card-footer"></div>
+                                                </div>
+                                        </div>
+        
+                                        <div class="">
+                                                <span class="marker"></span>
+                                                <div class="card">
+                                                        <div class="card-title">ReportMe</div>
+                                                        <div class="card-subtitle">Dialogflow</div>
+                                                        <div class="card-content">This project was completed as a part of a hackathon conducted by Cognizant. Due to the strictly confidential nature of the project, I’m unable to disclose any further details about it.
+                                                                        However, I personally learned a lot about Dialogflow, accessing different APIs, enabling the app on our personal phones, etc.</div>
+                                                        <div class="card-footer"></div>
+                                                </div>
+                                        </div>
+
+                                        <div class="">
+                                        <span class="marker"></span>
+                                        <div class="card">
+                                                <div class="card-title">Stock Market Prediction using Twitter Based on Machine Learning</div>
+                                                <div class="card-subtitle">Machine Learning, Django</div>
+                                                <div class="card-content">This project was completed as a part of my final year undergraduate program. This was my first ever project in the domain of machine learning. The objective of the project was to predict the stock prices of some of the stocks in the NASDAQ Stock exchange based on the previous stock prices and sentiment analysis for the tweets related to the company. The model was built using the Google Colabs and exported to the web interface to predict the stock prices.
+                                                                I learned a lot about machine learning, Django, Twitter API with this project. This also was my first project where I completed used the VCS tool, Git. It was a great experience.</div>
+                                                <div class="card-footer"></div>
+                                        </div>
+                                </div>
+
+                                <div class="">
+                                        <span class="marker"></span>
+                                        <div class="card">
+                                                <div class="card-title">IEEE RSET SB Website</div>
+                                                <div class="card-subtitle">WordPress</div>
+                                                <div class="card-content">Created a new website for the IEEE Student branch, in our college with IEEE Hosting services, having the role of Webmaster for the SB. This project too gave a lot of experience on different new plugin, I also learned to express the site in a more friendly manner with the limited number of the plugin available.</div>
+                                                <div class="card-footer"></div>
+                                        </div>
+                                </div>
+                                <div class="">
+                                                <span class="marker"></span>
+                                                <div class="card">
+                                                        <div class="card-title">TEDxSubhashPark</div>
+                                                        <div class="card-subtitle">WordPress</div>
+                                                        <div class="card-content">I had completed this project as a part of the TEDx event happening in our locality. I actually got to work on something that would be looked at by many people, felt great. I even added a count down timer for the event.</div>
+                                                        <div class="card-footer"></div>
+                                                </div>
+                                </div>
+                                <div class="">
+                                                <span class="marker"></span>
+                                                <div class="card">
+                                                        <div class="card-title">Matching Game</div>
+                                                        <div class="card-subtitle">HTML,CSS,JS</div>
+                                                        <div class="card-content">I was a recipient of the Google Scholarship for Nanodegree Front End Web Development in Udacity and I completed this as a part matching game as a part of the Nanodegree course assessment. The project is a simple puzzle to find two similar matches together from hidden boxes within the shortest number of moves. Even though I wasn’t able to complete the Nanodegree Course within the stipulated time, I did manage to effectively learn the core fundamentals of Web Development like features of responsiveness, accessibility etc. compared to any other website that offers to teach web development online.</div>
+                                                        <div class="card-footer"></div>
+                                                </div>
+                                </div>
+                                 <div class="">
+                                                <span class="marker"></span>
+                                                <div class="card">
+                                                        <div class="card-title">Application Request Management System</div>
+                                                        <div class="card-subtitle">PHP, SQL</div>
+                                                        <div class="card-content">This project was completed as a part of the design project in my 3rd semester, the objective of that project is to create an online portal (in my case I used the school/college request) where students and faculty can send in a request to their higher authorities like the class teacher and HOD in a progressive manner(lower authorities should approve before forwarding to higher authorities) it can also be rejected at any instant, the best part I liked while doing this project is that, the digital signature(Approval status) was directly printed on the pdf along with the request that was initially submitted. This project was entirely done using PHP.</div>
+                                                        <div class="card-footer"></div>
+                                                </div>
+                                </div>
+                                <div class="">
+                                                <span class="marker"></span>
+                                                <div class="card">
+                                                        <div class="card-title">E-commerce website</div>
+                                                        <div class="card-subtitle">Bootstrap, PHP, SQL</div>
+                                                        <div class="card-content">Completed this project as a part of the Internshala Web Development Training. Course contents included HTML & CSS, Bootstrap, SQL and PHP. Unfortunately, I hadn’t started learning about the Version Control System, or haven’t written a report on this project.</div>
+                                                        <div class="card-footer"></div>
+                                                </div>
+                                        </div>
+
+                
+
+
+                        
+
+
+
+                        <!-- End -->
+                        </div>
+                        <div class="column column-25 column-10">
+                            
+                        </div>
+                    
+            </div>
+            <div class="row section" id="experience">
+                    <div class="column column-25 column-10">
+                        
+                        </div>
+                        <div class="column pl-40  B700 A000">
+                              
+                        </div>
+                    
+            </div>
+            <div class="row section" id="resume">
+                    <div class="column pl-40  B700 A000">
+                          
+                        </div>
+                        <div class="column column-25 column-10">
+                            
+                        </div>
+            </div>
+
+          
+    </div>
 </body>
+
 </html>
