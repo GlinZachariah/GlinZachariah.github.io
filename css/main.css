@@ -8,7 +8,7 @@
 .B200{background-color: #536dfe !important;}
 .B400{background-color: #3d5afe !important;}
 .B700{background-color: #304ffe !important;}
-
+.plain-border{border-color: #ffffff !important;}
 .theme-border{border-color: #304ffe !important;}
 body::-webkit-scrollbar { width: 0 !important }
 .section{min-height: 700px;}
@@ -22,7 +22,7 @@ body::-webkit-scrollbar { width: 0 !important }
     padding: 5px;
 }
 .nav-bar{position: fixed !important; right: 0; height: 100vh;}
-.title{padding-top: 20%;}
+.title{padding-top: 10%;}
 .section-title{display: block;margin: auto;}
 .pl-40{padding-left: 40px !important;}
 .pr-40{padding-right: 40px !important;}
@@ -30,7 +30,7 @@ body::-webkit-scrollbar { width: 0 !important }
 .nav-btn{width: 80%;}
 .blockquote{font-size: 42px;}
 .contents{padding-left: 8% !important;padding-top: 10% !important; padding-right: 8% !important;margin-right: 1% !important; height: 700px; overflow: scroll; overflow-x: hidden;}
-
+.flex{display: flex;}
 .marker{
     display: block; 
     width: 22px;
@@ -56,10 +56,23 @@ body::-webkit-scrollbar { width: 0 !important }
 .project-item::after{
     clear: both;
 }
-.project-item{display: contents; width: 80%; margin-bottom: 5%;}
+.project-item{ width: 80%; margin-bottom: 5%;}
 
 
 .card{padding-left:-webkit-calc(15% + 8px); width: 100%; margin-bottom:15%;}
+.card-exp{margin:auto; padding-top:15px; padding-bottom: 15px;}
+.hide-overflow{overflow-y: hidden !important;}
 .card-title{font-size: 36px;width: 100%;}
 .card-subtitle{font-size: 24px; width: max-content;}
 .card-content{font-size: 16px; width: 100%;}
+.dc{display: contents !important;}
+.exp{ display: flex;margin: auto; width: 50%;}
+.bold{font-size: 32px; font-weight: 500;}
+.connect-icons{
+    background-color: #ffffff; border-radius: 50%;border:2px solid; border-color:#304ffe;width: 10%;
+}
+.footer{
+    padding-top: 10%;
+    margin: auto;
+    width: fit-content;
+}
